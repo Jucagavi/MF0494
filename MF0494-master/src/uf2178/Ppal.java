@@ -18,13 +18,13 @@ public class Ppal {
 		// Escribe aqu� las sentencias del apartado 3
 		Scanner teclado=new Scanner(System.in);
 		
-//		System.out.println("Introduce tasa de alcoholemia del conductor:");
-//		double tasa = teclado.nextDouble();
-//
-//		Funciones.calculaSancion(tasa);
+		System.out.println("Introduce tasa de alcoholemia del conductor:");
+		double tasa = teclado.nextDouble();
+
+		Funciones.calculaSancion(tasa);
 		
 		int puntos[]= new int[6];
-		System.out.println("Introduce puntos del conductor:");
+		System.out.println("\n\nIntroduce puntos del conductor:");
 		Funciones.pedir_vector(puntos);
 		
 		int sanciones[]= new int[6];
