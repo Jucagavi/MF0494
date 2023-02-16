@@ -25,7 +25,10 @@ class FuncionesDGTTest {
 
 	@Test
 	void testMaximaTasaPermitida() {
-		
+		assertEquals(0.25,FuncionesDGT.maximaTasaPermitida("General",true));
+		assertEquals(0.5,FuncionesDGT.maximaTasaPermitida("General",false));
+		assertEquals(0.15,FuncionesDGT.maximaTasaPermitida("Novel",true));
+		assertEquals(0.3,FuncionesDGT.maximaTasaPermitida("Novel",false));
 	}
 
 }

@@ -36,7 +36,7 @@ public class FuncionesDGT {
 	 * @param aire boolean será true cuando la tasa es en aire y false cuando la tasa es en sangre
 	 * @return double es la tasa correspondiente según los parámetros introducidos
 	 */
-	public double maximaTasaPermitida(String tipoConductor, boolean aire) {
+	public static double maximaTasaPermitida(String tipoConductor, boolean aire) {
 		double tasa=0.25;
 		if (tipoConductor.equalsIgnoreCase("General")) {
 			if (aire) {
